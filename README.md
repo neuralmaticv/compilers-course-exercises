@@ -1,1 +1,1 @@
-# Vjezbe iz predmeta Konstrukcija kompilatora
+# Vježbe iz predmeta Konstrukcija kompilatora
