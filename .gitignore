@@ -1,3 +1,3 @@
 .vscode/*
-./vjezbe6/zadatak[0-9]/lex.yy.c
-./vjezbe6/zadatak[0-9]/*.out
+vjezbe06/zadatak[0-9]/lex.yy.c
+vjezbe06/zadatak[0-9]/*.out
