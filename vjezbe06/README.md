@@ -18,8 +18,9 @@ flex naziv_zadatka.l
 
 gcc lex.yy.c
 
-a.out
-
+./a.out
 ```
 
-**Napomena:** za izvršavanje komadi, potrebno je da se nalazite unutar odgovarajućeg direktorijuma
+**Napomena #1:** za izvršavanje komadi, potrebno je da se nalazite unutar odgovarajućeg direktorijuma
+**Napomena #2:** za testiranje zadatka 5, potrebno je da navedete ulazni fajl za testiranje, kao npr:
+> ./a.out < input.txt
