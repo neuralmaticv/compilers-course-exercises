@@ -1,5 +1,6 @@
 # Vježbe 4
-#### Za date automate, predstavljene grafom, napisati simulaciju za testiranje.
+### **Zadatak**
+> Za date automate, predstavljene grafom, napisati simulaciju za testiranje.
 <p align="center">
   <img src="./zadaci/zadatak1.png">
   <p align="center">Primjer 1.</p>
