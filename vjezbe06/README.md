@@ -1,5 +1,5 @@
 # Vježbe 6 
-### **Lex i yacc**
+### **Flex**
 
 Potrebno je da instalirate flex.
 
