@@ -16,8 +16,8 @@ prekid "quit"
 {novalinija} {
     if (brojac > 0) {
         linijaBezKomentara++;
+        brojac = 0;
     }
-    brojac = 0;
 }
 
 . {brojac++;}
