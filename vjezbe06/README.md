@@ -7,9 +7,11 @@ Potrebno je da instalirate flex.
 Napisati leksički analizator
 1. koji kompresuje razmake i tabulare na jedan razmak, i odbacuje sve što se nalazi na kraju pročitane linije.
 2. koji prepoznaje identifikatore i vraća informaciju o dužini identifikatora.
-3. koji ispisuje i identifikuje pojavljivanje realnih brojeva.
+3. koji ispisuje i identifikuje pojavljivanje realnih brojeva definisanih regularnim izrazom  `(+|-)cifra*.cifra cifra*`.
 4. koji prepoznaje cijele brojeve, realne brojeve, identifikatore, stringove i neke ključne riječi (npr. int, var, begin, end, to, do, for, itd.)
 5. koji broji karaktere i linije.
+6. koji ispisuje i identifikuje pojavljivanje realnih brojeva definisanih regularnim izrazom  `(+|-| )cifra*.cifra cifra* ((e|E) (+|-| ) cifra cifra*)`.  
+
    
 ### Izvršavanje zadataka:
 
