@@ -3,7 +3,7 @@
 
 # Flex i yacc
 
-**Flex** (Fast Lexical Analyzer Generator) i **yacc** (Yet Another Compiler Compiler) su alati za generiranje leksičkog analizatora i sintaksnog analizatora.
+**Flex** (Fast Lexical Analyzer Generator) i **yacc** (Yet Another Compiler Compiler) su alati za generiranje leksičkog i sintaksnog analizatora.
 
 ---
 
@@ -18,13 +18,13 @@ Flex fajl se završava ekstenzijom **.l** i sadrži tri dijela:
     int brojac = 0;
 %}
 ```
-1. **Sekcija skupa pravila** - regularni izrazi
+2. **Sekcija skupa pravila** - regularni izrazi
 ```
 [0-9]+ { 
     printf("Broj: %s\n", yytext);
 }
 ```
-1. **Sekcija akcija** - korisnički definisane funkcije
+3. **Sekcija akcija** - korisnički definisane funkcije
 ```
 %%
 int main() {
