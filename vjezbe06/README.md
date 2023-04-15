@@ -21,6 +21,11 @@ gcc lex.yy.c
 ./a.out
 ```
 
-**Napomena #1:** za izvršavanje komadi, potrebno je da se nalazite unutar odgovarajućeg direktorijuma
-**Napomena #2:** za testiranje zadatka 5, potrebno je da navedete ulazni fajl za testiranje, kao npr:
-> ./a.out < input.txt
+**Napomena #1:** za izvršavanje komadi, potrebno je da se nalazite unutar odgovarajućeg direktorijuma  
+**Napomena #2:** komentari se pišu u leksičkom analizatoru pomoću `/* */` ali se prije "/*" unosi blanko znak
+**Napomena #3:** unos se prekida kombinacijom `CTRL+D`  
+**Napomena #4:** za testiranje zadatka 5, možete navesti ulazni fajl za testiranje tako što ćete u terminalu unijeti:
+```
+./a.out < input.txt
+```
+
