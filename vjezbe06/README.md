@@ -22,7 +22,7 @@ gcc lex.yy.c
 ```
 
 **Napomena #1:** za izvršavanje komadi, potrebno je da se nalazite unutar odgovarajućeg direktorijuma  
-**Napomena #2:** komentari se pišu u leksičkom analizatoru pomoću `/* */` ali se prije "/*" unosi blanko znak
+**Napomena #2:** komentari se pišu u leksičkom analizatoru pomoću ` /* */` ali se prije "/*" unosi blanko znak  
 **Napomena #3:** unos se prekida kombinacijom `CTRL+D`  
 **Napomena #4:** za testiranje zadatka 5, možete navesti ulazni fajl za testiranje tako što ćete u terminalu unijeti:
 ```
