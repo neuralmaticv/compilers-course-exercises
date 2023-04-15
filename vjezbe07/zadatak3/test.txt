@@ -1,0 +1,5 @@
+for int i = 0
+/* ovo je for petlja */
+i < 10
+i++
+neki kod

@@ -29,8 +29,7 @@ prekid "quit"
 %%
 
 int main() {
-    printf("*************************\n");
     yylex();
-    printf("\n%d\n", linijaBezKomentara);
+    printf("%d linije bez komentara\n", linijaBezKomentara);
     return 0;
 }
