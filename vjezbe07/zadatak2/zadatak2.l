@@ -1,6 +1,9 @@
- // lek analizator koji dodaje broj linije izvrsnom kodu
+%option noyywrap
+
 %{
-    int brojac = 0;    
+     // lek analizator koji dodaje broj linije kodu
+
+    int brojac1 = 0, brojac=0;    
 
     int brRijeci(char text[]) {
         int b = 0;
@@ -19,9 +22,9 @@ linija [^\n]*\n
 
 %% 
 {linija} {
-    printf("%d %s\n", brojac, yytext);
-    // printf("%d %d\n", brojac, brRijeci(yytext));
-    brojac++;
+    printf("%d %s\n", brojac1, yytext);
+    printf("%d broj rijeci je %d\n", brojac, brRijeci(yytext));
+    brojac1++;
 }
 %%
 
