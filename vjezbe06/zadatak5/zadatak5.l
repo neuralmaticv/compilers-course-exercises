@@ -4,10 +4,15 @@
 int b_linija=0;
 int b_karaktera=0; 
 %}
- 
+
 %%
-\n {b_linija++;}
-. {b_karaktera++;}
+\n {
+    b_linija++;
+    b_karaktera++;
+}
+. {
+    b_karaktera++;
+    }
 %%
 
 int main() {
